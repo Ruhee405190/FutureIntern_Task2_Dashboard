@@ -3,6 +3,7 @@
 A Power BI dashboard to analyze marketing campaign performance using given dataset.
 
 📌 KPIs Calculated (DAX)
+
 CTR = DIVIDE(SUM(Clicks), SUM(Impressions)) * 100
 CPC = DIVIDE(SUM(Spend), SUM(Clicks))
 CPM = DIVIDE(SUM(Spend) * 1000, SUM(Impressions))
